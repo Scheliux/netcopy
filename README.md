@@ -59,8 +59,8 @@ parancssori argumentumban kell megadni.
   - Helyes átvitel esetén az stdout-ra ki kell írni: CSUM OK
   - Fájl fogadása és ellenőrzése után terminál a program.
 - Futtatás:
-  - * python3 netcopy_srv.py < srv_ip > < srv_port > < chsum_srv_ip > < chsum_srv_port > < fájl azon > < fájlnév elérési úttal >
-  - < fájl azon >: egész szám ua. mint a kliensnél – ez alapján kéri le a szervertől a checksumot
-  - < srv_ip > < srv_port >: a netcopy szerver elérhetősége – bindolásnál kell
-  - < chsum_srv_ip > < chsum_srv_port >: a Checksum szerver elérhetősége
-  - < fájlnév > : ide írja a kapott bájtokat
+  - \* python3 netcopy_srv.py < srv_ip > < srv_port > < chsum_srv_ip > < chsum_srv_port > < fájl azon > < fájlnév elérési úttal >
+    - < fájl azon >: egész szám ua. mint a kliensnél – ez alapján kéri le a szervertől a checksumot
+    - < srv_ip > < srv_port >: a netcopy szerver elérhetősége – bindolásnál kell
+    - < chsum_srv_ip > < chsum_srv_port >: a Checksum szerver elérhetősége
+    - < fájlnév > : ide írja a kapott bájtokat
